@@ -11,13 +11,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0EA580A0-EC86-4BF2-B777-ADABDAA1B6C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchitecture.Application", "src\core\OnionArchitecture.Application\OnionArchitecture.Application.csproj", "{1B4BF323-313B-42F5-ACC1-C383462DBFC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnionArchitecture.Application", "src\core\OnionArchitecture.Application\OnionArchitecture.Application.csproj", "{1B4BF323-313B-42F5-ACC1-C383462DBFC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchitecture.Domain", "src\core\OnionArchitecture.Domain\OnionArchitecture.Domain.csproj", "{AB6B6413-4834-42FF-8CF8-F1DA862372FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnionArchitecture.Domain", "src\core\OnionArchitecture.Domain\OnionArchitecture.Domain.csproj", "{AB6B6413-4834-42FF-8CF8-F1DA862372FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchitecture.Infrastructure", "src\infrastructure\OnionArchitecture.Infrastructure\OnionArchitecture.Infrastructure.csproj", "{3CC0E40F-791B-457C-A981-9DCD48D96AF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnionArchitecture.Infrastructure", "src\infrastructure\OnionArchitecture.Infrastructure\OnionArchitecture.Infrastructure.csproj", "{3CC0E40F-791B-457C-A981-9DCD48D96AF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchitecture.Persistence", "src\infrastructure\OnionArchitecture.Persistence\OnionArchitecture.Persistence.csproj", "{A2A05705-CDFE-4CC7-8B0A-529D280C2709}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnionArchitecture.Persistence", "src\infrastructure\OnionArchitecture.Persistence\OnionArchitecture.Persistence.csproj", "{A2A05705-CDFE-4CC7-8B0A-529D280C2709}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchitecture.WebAPI", "src\presentation\OnionArchitecture.WebAPI\OnionArchitecture.WebAPI.csproj", "{A50C26F3-1D0B-47F2-A6CE-17EB75026B29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{A2A05705-CDFE-4CC7-8B0A-529D280C2709}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2A05705-CDFE-4CC7-8B0A-529D280C2709}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2A05705-CDFE-4CC7-8B0A-529D280C2709}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A50C26F3-1D0B-47F2-A6CE-17EB75026B29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A50C26F3-1D0B-47F2-A6CE-17EB75026B29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A50C26F3-1D0B-47F2-A6CE-17EB75026B29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A50C26F3-1D0B-47F2-A6CE-17EB75026B29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{AB6B6413-4834-42FF-8CF8-F1DA862372FA} = {5C67CA55-0ADD-4E73-B009-5364A78DEBEA}
 		{3CC0E40F-791B-457C-A981-9DCD48D96AF0} = {CEDF1676-F5DE-459D-9A6A-AD8665FF3D0C}
 		{A2A05705-CDFE-4CC7-8B0A-529D280C2709} = {CEDF1676-F5DE-459D-9A6A-AD8665FF3D0C}
+		{A50C26F3-1D0B-47F2-A6CE-17EB75026B29} = {D8B6109A-76E2-4639-BE7C-42BF857227F9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0EC86469-CB5B-41A9-9343-C99DC2788598}
