@@ -1,22 +1,16 @@
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using OnionArchitecture.Application;
 using OnionArchitecture.Application.Features.ProductEntity.Commands.Create;
 using OnionArchitecture.Infrastructure;
 using OnionArchitecture.Infrastructure.Attributes;
 using OnionArchitecture.Persistence;
-using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace OnionArchitecture.WebAPI
 {
