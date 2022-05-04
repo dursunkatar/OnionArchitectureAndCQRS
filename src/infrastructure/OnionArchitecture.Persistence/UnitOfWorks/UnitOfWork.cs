@@ -13,6 +13,7 @@ namespace OnionArchitecture.Persistence.UnitOfWorks
         public UnitOfWork(ApplicationDbContext context, IProductRepository productRepository)
         {
             _context = context;
+
             ProductRepository = productRepository;
         }
 
