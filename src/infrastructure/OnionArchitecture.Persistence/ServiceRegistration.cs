@@ -15,7 +15,6 @@ namespace OnionArchitecture.Persistence
         {
             serviceCollection.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("SQLServer")), ServiceLifetime.Scoped);
             serviceCollection.AddScoped<IUnitOfWork, UnitOfWork>();
-
             serviceCollection.AddScoped<IProductRepository, ProductRepository>();
         }
     }
