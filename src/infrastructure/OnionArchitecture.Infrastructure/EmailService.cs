@@ -9,5 +9,10 @@ namespace OnionArchitecture.Infrastructure
         {
             Console.WriteLine("Email Gönderildi");
         }
+
+        public void Falan2()
+        {
+            Console.WriteLine("Email Gönderildi");
+        }
     }
 }
